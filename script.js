@@ -13,14 +13,7 @@ setInterval(() => {
     document.body.style.display = "block"
   }, 5000)
   
-  // Loggar 10000 tal till konsolen efter 1 sekund
-  setTimeout(() => {
-    for (let i = 0; i < 10000; i++) {
-      console.log(i)
-    }
-  }, 1000)
+  // Loggar 10000 tal till konsolen efter 1 sekund - tog bort det
+
   
-  // Loggar 100 000 siffror direkt när sidan laddas
-  for (let i = 0; i < 100000; i++) {
-    console.log(i)
-  }
+  // Loggar 100 000 siffror direkt när sidan laddas - tog bort det
